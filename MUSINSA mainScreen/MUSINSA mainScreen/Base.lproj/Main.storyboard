@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MUSINSA_mainScreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfa-MD-Ys7">
+                                <rect key="frame" x="20" y="44" width="41" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="KBb-ts-baO"/>
+                                    <constraint firstAttribute="width" constant="41" id="Om1-Vx-dbm"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button" image="bell" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18h-la-fhd">
+                                <rect key="frame" x="363" y="44" width="41" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="9Yt-jy-VeI"/>
+                                    <constraint firstAttribute="width" constant="41" id="PeQ-6c-yv1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" image="스크린샷 2021-07-14 오후 2.28.53">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HJU-Gh-fzw">
+                                <rect key="frame" x="107" y="44" width="200" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="KWM-Ka-Ejg"/>
+                                    <constraint firstAttribute="height" constant="41" id="Xl7-D8-2O7"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="스크린샷 2021-07-14 오후 2.28.43"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jE-rl-GFJ">
+                                <rect key="frame" x="327" y="44" width="41" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="41" id="ikT-4D-yMa"/>
+                                    <constraint firstAttribute="height" constant="41" id="tdK-Mq-XJO"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button">
+                                    <imageReference key="image" image="heart" catalog="system" symbolScale="large"/>
+                                </state>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="c45-ID-Y4C">
+                                <rect key="frame" x="0.0" y="95" width="414" height="757"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m2r-aQ-zfu">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="589"/>
+                                        <state key="normal" title="Button" image="스크린샷 2021-07-14 오후 2.29.34"/>
+                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Knc-Fc-xF9">
+                                        <rect key="frame" x="0.0" y="599" width="414" height="80"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LpS-8V-xVd">
+                                                <rect key="frame" x="0.0" y="0.0" width="96" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="Zpx-64-QLc"/>
+                                                    <constraint firstAttribute="height" constant="80" id="pVb-sf-Una"/>
+                                                </constraints>
+                                                <state key="normal" title="button" image="스크린샷 2021-07-14 오후 3.27.22"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMs-02-olj">
+                                                <rect key="frame" x="106" y="0.0" width="96" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="50B-cO-fJ9"/>
+                                                    <constraint firstAttribute="width" constant="80" id="GbU-ux-k9h"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="스크린샷 2021-07-14 오후 3.27.36"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEM-fS-RSf">
+                                                <rect key="frame" x="212" y="0.0" width="96" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="BOw-O0-SOY"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="SAY-36-sRz"/>
+                                                    <constraint firstAttribute="height" constant="80" id="aoS-rb-Pp9"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="스크린샷 2021-07-14 오후 3.28.10"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hky-Hi-DHF">
+                                                <rect key="frame" x="318" y="0.0" width="96" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="821-cP-rOJ"/>
+                                                    <constraint firstAttribute="width" constant="80" id="N2a-Ap-Dbh"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="스크린샷 2021-07-14 오후 3.27.54"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="loE-c6-E17">
+                                        <rect key="frame" x="0.0" y="689" width="414" height="68"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="부티크" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L7Y-9T-o0w">
+                                                <rect key="frame" x="0.0" y="0.0" width="96" height="34"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="Nta-4c-VSl"/>
+                                                    <constraint firstAttribute="height" constant="34" id="muK-pz-Ee0"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="쇼케이스" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jqL-6q-6rw">
+                                                <rect key="frame" x="106" y="0.0" width="96" height="34"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="34" id="VDZ-uH-UXq"/>
+                                                    <constraint firstAttribute="width" constant="80" id="lyt-zG-xUz"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="월간무신사" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7YD-Fb-cwL">
+                                                <rect key="frame" x="212" y="0.0" width="96" height="34"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="34" id="59f-VR-CpA"/>
+                                                    <constraint firstAttribute="width" constant="80" id="WRu-Zd-Pja"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="무신사 현대카드" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aJn-mP-Pz0">
+                                                <rect key="frame" x="318" y="0.0" width="96" height="60"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="9rG-Zu-pjQ"/>
+                                                    <constraint firstAttribute="width" constant="80" id="eMv-dL-3G5"/>
+                                                </constraints>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="68" id="ktV-wU-Tg0"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="L7Y-9T-o0w" firstAttribute="centerX" secondItem="LpS-8V-xVd" secondAttribute="centerX" id="L72-kz-OZA"/>
+                                    <constraint firstItem="loE-c6-E17" firstAttribute="centerX" secondItem="Knc-Fc-xF9" secondAttribute="centerX" id="t61-g4-rUG"/>
+                                </constraints>
+                            </stackView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="15" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="wfo-N0-Cap">
+                                <rect key="frame" x="101" y="634.5" width="212.5" height="27.5"/>
+                            </pageControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="c45-ID-Y4C" firstAttribute="top" secondItem="18h-la-fhd" secondAttribute="bottom" constant="10" id="0Gl-lJ-sZv"/>
+                            <constraint firstItem="lfa-MD-Ys7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7eO-5f-BX3"/>
+                            <constraint firstItem="HJU-Gh-fzw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8hC-uU-2hT"/>
+                            <constraint firstItem="lfa-MD-Ys7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Gv0-af-aH2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="c45-ID-Y4C" secondAttribute="bottom" constant="5" id="M0c-bd-BsD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8jE-rl-GFJ" secondAttribute="trailing" constant="46" id="O1D-Q7-7WT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="c45-ID-Y4C" secondAttribute="bottom" constant="10" id="WIs-Jf-vzO"/>
+                            <constraint firstItem="18h-la-fhd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XY2-uo-eGm"/>
+                            <constraint firstItem="HJU-Gh-fzw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Xcs-bU-tAz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="18h-la-fhd" secondAttribute="trailing" constant="10" id="egj-qh-pJp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wfo-N0-Cap" secondAttribute="bottom" constant="200" id="eq1-kY-vf7"/>
+                            <constraint firstItem="8jE-rl-GFJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gvn-fj-AQU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c45-ID-Y4C" secondAttribute="trailing" id="qbF-9X-vFg"/>
+                            <constraint firstItem="c45-ID-Y4C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uIh-x2-rDc"/>
+                            <constraint firstItem="wfo-N0-Cap" firstAttribute="centerX" secondItem="c45-ID-Y4C" secondAttribute="centerX" id="v14-2D-tFE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bell" catalog="system" width="128" height="124"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="스크린샷 2021-07-14 오후 2.28.43" width="278" height="72"/>
+        <image name="스크린샷 2021-07-14 오후 2.28.53" width="98" height="102"/>
+        <image name="스크린샷 2021-07-14 오후 2.29.34" width="930" height="1090"/>
+        <image name="스크린샷 2021-07-14 오후 3.27.22" width="164" height="152"/>
+        <image name="스크린샷 2021-07-14 오후 3.27.36" width="160" height="154"/>
+        <image name="스크린샷 2021-07-14 오후 3.27.54" width="166" height="152"/>
+        <image name="스크린샷 2021-07-14 오후 3.28.10" width="172" height="154"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
